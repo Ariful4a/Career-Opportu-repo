@@ -32,18 +32,18 @@
     </script>
 </head>
 
-<body class="max-w-screen-lg mx-auto font-Inter">
+<body class="lg:max-w-screen-lg mx-auto font-Inter">
     <!-- this is header section  -->
-    <header>
+    <header class="mx-5 lg:mx-0">
         <div>
             <div class="navbar bg-base-100">
                 <div class="flex-1">
-                    <a><img class="w-full" src="asests/logo_black 1.png" alt=""></a>
+                    <a><img class="w-[90%] lg:w-full" src="asests/logo_black 1.png" alt=""></a>
                 </div>
                 <div class="flex-none">
                     <ul class="menu menu-horizontal px-1">
                         <li><a class="bg-transparent border-green-600 border-2 text-green-600 py-1"><i
-                                    class="fa-brands fa-whatsapp text-xl"></i>Chat With Us</a></li>
+                                    class="fa-brands fa-whatsapp text-lg lg:text-xl"></i>Chat With Us</a></li>
                         <li class="pl-4"><a class="bg-gradient-to-r from-[#0ACEFE] to-[#2699FB] text-white text-md"
                                 href="#">Call Us</a></li>
                         </li>
@@ -58,15 +58,15 @@
     <!-- This main section start  -->
     <main>
         <!-- hero section start  -->
-        <section class="h-[600px] flex items-center">
-            <div class="flex gap-20">
-                <div class="w-[500px]">
+        <section class="lg:h-[600px] mt-7 lg:mt-0 flex items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-[11rem]">
+                <div class="mx-6 lg:0 lg:w-[500px]">
                     <div class="relative">
-                        <h1 class="text-5xl font-bold leading-[60px]">Career Opportunities <br> in <span
+                        <h1 class="text-3xl lg:text-5xl lg:leading-[68px] font-bold">Career Opportunities <br> in <span
                                 class="text-[#2699FB]">Digital Marketing</span></h1>
-                        <img class="absolute right-[30px] -bottom-4 w-96" src="asests/Vector 63.png" alt="">
+                        <img class="absolute left-[54px] lg:left-[80px] -bottom-[10px] lg:-bottom-[14px] w-[16rem] lg:w-96" src="asests/Vector 63.png" alt="">
                     </div>
-                    <p class="mt-6 text-justify">Digital marketing course so good,you only pay-after-placement Digital marketing
+                    <p class="mt-6">Digital marketing course so good,you only pay-after-placement Digital marketing
                         course so good,you only pay-after-placement Digital marketing course so good,you only
                         pay-after-placement Digital marketing course so good,you only pay-after-placement</p>
                     <ul class="mt-3">
@@ -80,14 +80,18 @@
                                 class="fa-solid fa-check bg-[#2699FB] rounded-full w-[16px] h-[16px]  text-white text-center content-center text-[11px] mr-2"></i>50
                             seats only</li>
                     </ul>
-                    <div class="mt-6 flex gap-4">
+                    <div class="mt-10 flex-none lg:flex gap-4 space-y-10 lg:space-y-0">
+                    <div>
                         <a class="bg-gradient-to-r from-[#0ACEFE] to-[#2699FB] border-2 border-[#0ACEFE] text-white py-2 px-10 rounded-lg pb-[11px]"
-                            href="#">Book 2 Days Demo</a>
-                        <a class="border-2 border-gray-300 text-black py-2 px-4 rounded-lg pb-11px] hover:bg-gradient-to-r from-[#0ACEFE] to-[#2699FB] hover:text-white"
-                            href="#"><i class="fa-solid fa-download mr-3"></i>Download Curriculum</a>
+                        href="#">Book 2 Days Demo</a>
+                    </div>
+                       <div>
+                        <a class="border-2 pb-[10px] border-gray-300 text-black py-2 px-4 rounded-lg pb-11px] hover:bg-gradient-to-r from-[#0ACEFE] to-[#2699FB] hover:text-white"
+                        href="#"><i class="fa-solid fa-download mr-3"></i>Download Curriculum</a>
+                       </div>
                     </div>
                 </div>
-                <div class="border-gray-300 border-2 rounded-lg p-10">
+                <div class="border-gray-300 border-2 rounded-lg p-6 w-[380px] lg:w-[410px] mx-auto lg:mx-0">
                     <h1 class="text-lg font-bold">Book Your Free Class Now!</h1>
                     <p class="text-gray-600 mt-2 mb-2">2 days of free demo classes without <br>
                         paying in advance!</p>
@@ -101,7 +105,7 @@
                         <label for="phone">Phone</label><br>
                         <input class="w-full border-2 p-1 mt-2 mb-2 rounded-lg" type=" number" id="phone"
                             placeholder="Enter your phone"><br>
-                        <button type="submit">Submit</button>
+                        <button class="w-full mt-4 pb-[11px] bg-gradient-to-r from-[#0ACEFE] to-[#2699FB] text-white py-2 px-10 rounded-lg" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
